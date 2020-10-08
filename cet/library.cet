@@ -9,7 +9,7 @@
 			}
 		}
 		{
-			rule; "CE_ENVTYPE==prod"
+			rule: "CE_ENVTYPE==prod"
 			config: {
 				library_port = 3030
 			}
