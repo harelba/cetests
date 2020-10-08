@@ -1,0 +1,18 @@
+{
+	includes: []
+	configs: [
+		{
+			rule: "CE_COMPANY==everywhere"
+			config: {
+				library_host = "localhost"
+				library_port = 2020
+			}
+		}
+		{
+			rule; "CE_ENVTYPE==prod"
+			config: {
+				library_port = 3030
+			}
+		}
+	]
+}
